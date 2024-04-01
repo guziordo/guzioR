@@ -1,0 +1,19 @@
+Package: guzioR
+Title: Doug Guzior's Common Commands
+Version: 0.1.0
+Authors@R: 
+    person("Doug", "Guzior", , "guziordo@msu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-7019-3261",))
+Description: This is a generic package containing functions, palettes, and general code I use regularly. It's a mash of different things with no cohesive theme but hopefully it helps with further analysis.
+License: use_mit_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+  vegan,
+  rstatix,
+  patchwork,
+  viridis,
+  ggpubr,
+  ggpmisc,
+  ggbeeswarm
