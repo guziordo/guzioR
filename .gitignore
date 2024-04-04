@@ -4,3 +4,5 @@
 ^guzioR\.Rproj$
 ^\.Rproj\.user$
 inst/doc
+docs
+.DS_store

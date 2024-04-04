@@ -2,16 +2,22 @@
 % Please edit documentation in R/save.ggplot.R
 \name{save.ggplot}
 \alias{save.ggplot}
-\title{Save Plot as Multiple File Types}
+\title{Simultaneous GGPlot Save as PDF, PNG, SVG}
 \usage{
-save.ggplot(plot, path, filename, height, width)
+save.ggplot(
+  filename,
+  plot = last_plot(),
+  path = paste0(getwd(), "/plots"),
+  height = NA,
+  width = NA
+)
 }
 \arguments{
+\item{filename}{What you want the saved plot to be named}
+
 \item{plot}{Name of the plot object to be saved}
 
 \item{path}{Path to the designated plot folder. These is where subfolders will be built for each plot file type.}
-
-\item{filename}{What you want the saved plot to be named}
 
 \item{height}{Plot height}
 

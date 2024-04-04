@@ -4,25 +4,29 @@ Version: 0.1.1
 Authors@R: 
     person("Doug", "Guzior","", "guziordo@msu.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-7019-3261"))
-Description: This is a generic package containing functions, palettes, and general code I use regularly. It's a mash of different things with no cohesive theme but hopefully it helps with some analysis.
+Description: This is a generic set of functions, palettes, and general code I use regularly. It's a mash of different things with no cohesive theme but hopefully it helps with some analysis.
 URL: "github.com/guziordo/guzioR"
-License: use_cc0_license()
+License: CC0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Imports:
-  vegan,
-  rstatix,
-  patchwork,
-  viridis,
-  ggpubr,
-  ggpmisc,
-  ggbeeswarm,
-  qrcode
+    data.table,
+    rstatix,
+    vegan,
+    ggpubr,
+    ggpmisc,
+    ggbeeswarm,
+    qrcode
 Depends: 
+    tidyverse,
+    ggplot2,
+    palettes,
     R (>= 2.10)
 LazyData: true
 Suggests: 
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+Config/Needs/website:
+    asciicast (>= 2.2.1)

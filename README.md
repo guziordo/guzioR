@@ -1,5 +1,8 @@
 
-# guzioR
+# guzioR <a href='https://guziordo.github.io/guzioR/'><img src='man/figures/logo.png' align="right" height="139"/></a>
+
+<!-- badges: start -->
+<!-- badges: end -->
 
 A compilation of various commands and tools I’ve used that may be
 helpful. This package will not be routinely updated or maintained, but
@@ -10,19 +13,16 @@ I’ll add things as they come up.
 Install the development version from [GitHub](github.com) using the
 following:
 
-    # install.packages("devtools")
-    devtools::install_github("guziordo/guzioR")
+``` r
+# install.packages("devtools")
+devtools::install_github("guziordo/guzioR")
+```
 
 ## Usage
 
 ``` r
 library(guzioR)
 ```
-
-## Included Functions
-
-<b>quick.boxplot</b> <br> Just as is sounds, it’s a quick and easy way
-to generate a box plot with points and statistics (if wanted).
 
 ## Included Palettes
 
@@ -31,7 +31,7 @@ generated for fun.
 
 <img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
 
-<i>Thank you Lydia-Ann Ghuneim, Ph.D. for providing the CPCOLS
+<i>Thank you to Dr. Lydia-Ann Ghuneim for providing the CPCOLS
 palette.</i>
 
 ### Big 10 Palettes
@@ -42,9 +42,11 @@ each are the primary colors of that school.
 
 <img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
 
+### Selecting Palettes
+
 Each can be subset based on what groups are wanted. Thanks to [Michael
-McCarthy](https://github.com/mccarthy-m-g) for the easy explanation of
-how to do this, which has been modified below.
+McCarthy](https://github.com/mccarthy-m-g) for the original text
+description, which has been modified below.
 
 - For a single palette:
 

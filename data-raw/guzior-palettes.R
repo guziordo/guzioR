@@ -1,6 +1,6 @@
 library(palettes)
 
-# B10 Themed
+# B10 Themed----
 b10.pal <- pal_palette(
   buckeye = c('#BA0C2F','#A7B1B7','#FFFFFF','#000000'),
   spartan = c('#18453B','#FFFFFF','#000000','#4d4d4d','#008208','#7BBD00','#0B9A6D','#008934'),
@@ -18,13 +18,24 @@ b10.pal <- pal_palette(
 )
 
 plot(b10.pal)
+
 usethis::use_data(b10.pal, overwrite = TRUE)
 
-guzior.pal <- pal_palette(
+# Colorblind-Friendly----
+cb.pal <- pal_palette(
   threecol = c("#003352","#009dca","#c24658"),
-  cpcols = c("#8B2323", "#EE7600", "#EEC900", "chartreuse3", "#0000FF", "#AB82FF", "#CD6889", "#FFA07A", "#FFFF00", "#228B22", "#AFEEEE", "#DDA0DD", "#EE2C2C", "#CDBE70", "#B0B099","#FFD900", "#32CD32", "maroon4", "cornflowerblue", "darkslateblue","#FFFFE0", "#FFEC8B", "peru", "#668B8B", "honeydew","#A020F0", "grey", "#8B4513", "#191970", "#00FF7F","lemonchiffon","#66CDAA", "#5F9EA0", "#A2CD5A", "#556B2F"),
+  cpcols = c("#8B2323", "#EE7600", "#EEC900", "chartreuse3", "#0000FF", "#AB82FF", "#CD6889", "#FFA07A", "#FFFF00", "#228B22", "#AFEEEE", "#DDA0DD", "#EE2C2C", "#CDBE70", "#B0B099","#FFD900", "#32CD32", "maroon4", "cornflowerblue", "darkslateblue","#FFFFE0", "#FFEC8B", "peru", "#668B8B", "honeydew","#A020F0", "grey", "#8B4513", "#191970", "#00FF7F","lemonchiffon","#66CDAA", "#5F9EA0", "#A2CD5A", "#556B2F")
   )
 
-plot(guzior.pal)
-usethis::use_data(guzior.pal, overwrite = TRUE)
+plot(cb.pal)
 
+usethis::use_data(cb.pal, overwrite = TRUE)
+
+# All palettes----
+guzior.pal <- c(cb.pal,
+                b10.pal
+                )
+
+plot(guzior.pal)
+
+usethis::use_data(guzior.pal, overwrite = TRUE)
