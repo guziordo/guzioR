@@ -2,11 +2,16 @@
 # guzioR <a href='https://guziordo.github.io/guzioR/'><img src='man/figures/logo.png' align="right" height="139"/></a>
 
 <!-- badges: start -->
+
+[![License:
+CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1)
+[![test-coverage](https://github.com/guziordo/guzioR/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/guziordo/guzioR/actions/workflows/test-coverage.yaml)
+[![R-CMD-check](https://github.com/guziordo/guzioR/actions/workflows/R-CMD-check.yml/badge.svg)](https://github.com/guziordo/guzioR/actions/workflows/R-CMD-check.yml)
 <!-- badges: end -->
 
 A compilation of various commands and tools I’ve used that may be
-helpful. This package will not be routinely updated or maintained, but
-I’ll add things as they come up.
+helpful. This package will not be routinely updated, but I’ll add things
+as they come up.
 
 ## Installation
 
@@ -31,8 +36,9 @@ generated for fun.
 
 <img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
 
-<i>Thank you to Dr. Lydia-Ann Ghuneim for providing the CPCOLS
-palette.</i>
+<i>Thank you to [Dr. Lydia-Ann
+Ghuneim](https://www.linkedin.com/in/lydia-ann-ghuneim/) for providing
+the CPCOLS palette.</i>
 
 ### Big 10 Palettes
 

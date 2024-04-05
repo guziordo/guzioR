@@ -5,13 +5,12 @@
 \alias{guzioR}
 \alias{guzior.pal}
 \alias{b10.pal}
-\alias{cb.pal}
 \title{Internal package methods}
 \format{
 \subsection{\code{guzior.pal}}{
 
 An object of class \code{palettes_palette} with
-15 color palettes.
+3 color palettes.
 Use \code{names(guzior.pal)} to return all palette names.
 }
 
@@ -21,20 +20,11 @@ An object of class \code{palettes_palette} with
 13 color palettes.
 Use \code{names(b10.pal)} to return all B10 palette names.
 }
-
-\subsection{\code{cb.pal}}{
-
-An object of class \code{palettes_palette} with
-2 color palettes.
-Use \code{names(cb.pal)} to return colorblind-friendly palette names.
-}
 }
 \usage{
 guzior.pal
 
 b10.pal
-
-cb.pal
 }
 \description{
 These include a colorblind friendly palette set in addition to a

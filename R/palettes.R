@@ -18,9 +18,3 @@
 #' Use `names(b10.pal)` to return all B10 palette names.
 "b10.pal"
 
-#' @rdname guzioR
-#' @format ## `cb.pal`
-#' An object of class `palettes_palette` with
-#' `r length(cb.pal)` color palettes.
-#' Use `names(cb.pal)` to return colorblind-friendly palette names.
-"cb.pal"

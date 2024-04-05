@@ -13,6 +13,7 @@ This is a generic set of functions, palettes, and general code I use regularly. 
 Useful links:
 \itemize{
   \item \url{"github.com/guziordo/guzioR"}
+  \item \url{https://guziordo.github.io/guzioR/}
 }
 
 }

@@ -1,13 +1,13 @@
 Package: guzioR
-Title: Doug Guzior's Common Commands
+Title: guzioR
 Version: 0.1.2
 Authors@R: 
-    person("Doug", "Guzior", "", 
+    person("Douglas", "Guzior", "V", 
             "guziordo@msu.edu", 
             role = c("aut", "cre"),
             comment = c(ORCID = "0000-0002-7019-3261"))
 Description: This is a generic set of functions, palettes, and general code I use regularly. It's a mash of different things with no cohesive theme but hopefully it helps with some analysis.
-URL: "github.com/guziordo/guzioR"
+URL: https://guziordo.github.io/guzioR/
 License: CC0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

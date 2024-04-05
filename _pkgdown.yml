@@ -1,4 +1,29 @@
-url: guziordo.github.io/guzioR/
+url: https://guziordo.github.io/guzioR/
 template:
   bootstrap: 5
+  bootswatch: simplex
 
+navbar:
+  title: guzioR
+  type: default # Optional: Type of navbar, default is fine for most cases.
+  components:
+    - text: Home
+      href: index.html
+    - text: Reference
+      href: reference/index.html
+
+reference:
+  - title: "Utilities"
+    contents:
+      - generate.qr
+      - "%ni%"
+      - guzior.setdir
+  - title: "Analysis Functions"
+    contents:
+      - alpha.div
+      - not_facet
+      - pielou
+  - title: "Plotting Functions"
+    contents:
+      - quick.boxplot
+      - save.ggplot
