@@ -2,7 +2,6 @@
 % Please edit documentation in R/guzioR-package.R
 \docType{package}
 \name{guzioR-package}
-\alias{guzioR}
 \alias{guzioR-package}
 \title{guzioR: Doug Guzior's Common Commands}
 \description{

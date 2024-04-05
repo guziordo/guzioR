@@ -4,10 +4,10 @@
 \alias{alpha.div}
 \title{Calculate Alpha Diversity Metrics}
 \usage{
-alpha.div(x, sample.col = 1)
+alpha.div(data, sample.col = 1)
 }
 \arguments{
-\item{x}{Data table with sample IDs in the first column}
+\item{data}{Data table with sample IDs in the first column}
 
 \item{sample.col}{Column name containing sample identifiers}
 }

@@ -27,6 +27,7 @@ asciicast::init_knitr_engine(
 # guzioR <a href='https://guziordo.github.io/guzioR/'><img src='man/figures/logo.png' align="right" height="139"/></a>
 
 <!-- badges: start -->
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-blue.svg)](http://creativecommons.org/licenses/1.0/)
 <!-- badges: end -->
 
 A compilation of various commands and tools I've used that may be helpful. This package will not be routinely updated or maintained, but I'll add things as they come up.
@@ -51,7 +52,7 @@ library(guzioR)
 These are compilations of palettes provided by friends or otherwise generated for fun.
 
 ```{r echo = F, fig.height = 1.5}
-plot(cb.pal)
+plot(guzior.pal)
 ```
 
 <i>Thank you to Dr. Lydia-Ann Ghuneim for providing the CPCOLS palette.</i>

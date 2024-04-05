@@ -22,11 +22,6 @@ quick.boxplot <- function(data, x.var, y.var, group.var = NULL, facet.var = NULL
                           y.lab = deparse(substitute(y.var)),
                           color.lab = deparse(substitute(group.var))) {
 
-  # Check if required packages are available
-  if (!all(c("ggplot2", "ggbeeswarm", "ggpubr", "dplyr") %in% installed.packages())) {
-    stop("Required packages (ggplot2, ggbeeswarm, ggpubr, dplyr) are not installed.")
-  }
-
   # Create plot
   p <- ggplot(data, aes_string(x = x.var, y = y.var)) +
 
@@ -51,7 +46,7 @@ quick.boxplot <- function(data, x.var, y.var, group.var = NULL, facet.var = NULL
 
   # Add facet if provided
   if (!is.null(facet.var)) {
-    p <- p + facet_wrap(as.formula(paste("~", facet.var)), nrow = 1)
+    p <- p + facet_wrap(stats::as.formula(paste("~", facet.var)), nrow = 1)
   }
 
   p <- ggpubr::ggadjust_pvalue(p = p,

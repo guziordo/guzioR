@@ -2,9 +2,17 @@
 % Please edit documentation in R/ni.R
 \name{\%ni\%}
 \alias{\%ni\%}
-\title{Not-In}
+\title{\%ni\% (Not-In) Operator}
 \usage{
-... \%ni\% NA
+x \%ni\% y
+}
+\arguments{
+\item{x}{A vector.}
+
+\item{y}{A vector.}
+}
+\value{
+A logical vector indicating whether each element of x is not in y.
 }
 \description{
 Use when wanting to exclude certain things instead of listing what to include.
