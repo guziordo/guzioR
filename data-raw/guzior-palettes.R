@@ -1,7 +1,5 @@
-library(palettes)
-
 # B10 Themed----
-b10.pal <- pal_palette(
+b10.pal <- palettes::pal_palette(
   buckeye = c('#BA0C2F','#A7B1B7','#FFFFFF','#000000'),
   spartan = c('#18453B','#FFFFFF','#000000','#4d4d4d','#008208','#7BBD00','#0B9A6D','#008934'),
   illini = c("#FF5F05","#009FD4","#13294B","#F8FAFC","#F5821E","#1D58A7","#1E3877"),
@@ -22,7 +20,7 @@ plot(b10.pal)
 usethis::use_data(b10.pal, overwrite = TRUE)
 
 # Palettes from me or friends----
-guzior.pal <- pal_palette(
+guzior.pal <- palettes::pal_palette(
   cpcols = c("#8B2323", "#EE7600", "#EEC900", "chartreuse3", "#0000FF", "#AB82FF", "#CD6889", "#FFA07A", "#FFFF00", "#228B22", "#AFEEEE", "#DDA0DD", "#EE2C2C", "#CDBE70", "#B0B099","#FFD900", "#32CD32", "maroon4", "cornflowerblue", "darkslateblue","#FFFFE0", "#FFEC8B", "peru", "#668B8B", "honeydew","#A020F0", "grey", "#8B4513", "#191970", "#00FF7F","lemonchiffon","#66CDAA", "#5F9EA0", "#A2CD5A", "#556B2F"),
   paired6.col = c("#33a02c", "#c8f9b5", "#e31a1c", "#fccfcf", "#1f78b4", "#a4c9e7", "#e6550d", "#ffcf9c", "#756bb1", "#c3c3e0", "#252525", "#f7f7f7"),
   threecol = c("#003352","#009dca","#c24658")

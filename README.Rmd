@@ -16,7 +16,6 @@ knitr::opts_chunk$set(
 asciicast::init_knitr_engine(
   startup = quote({
     library(guzioR)
-    set.seed(1) 
     }),
   echo = TRUE,
   echo_input = FALSE
@@ -27,7 +26,7 @@ asciicast::init_knitr_engine(
 # guzioR <a href='https://guziordo.github.io/guzioR/'><img src='man/figures/logo.png' align="right" height="139"/></a>
 
 <!-- badges: start -->
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1)
+[![pkgdown](https://github.com/guziordo/guzioR/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/guziordo/guzioR/actions/workflows/pkgdown.yaml)
 [![test-coverage](https://github.com/guziordo/guzioR/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/guziordo/guzioR/actions/workflows/test-coverage.yaml)
 [![R-CMD-check](https://github.com/guziordo/guzioR/actions/workflows/R-CMD-check.yml/badge.svg)](https://github.com/guziordo/guzioR/actions/workflows/R-CMD-check.yml)
 <!-- badges: end -->
@@ -51,7 +50,7 @@ library(guzioR)
 
 ## Included Palettes
 
-These are compilations of palettes provided by friends or otherwise generated for fun.
+There are `r length(guzior.pal)` palettes included, built by myself or others.
 
 ```{r echo = F, fig.height = 1.5}
 plot(guzior.pal)
@@ -67,18 +66,10 @@ I don't own any of the rights to things from the Big 10. These are some palettes
 plot(b10.pal)
 ```
 
-### Selecting Palettes
+## Selecting Palettes
 
-Each can be subset based on what groups are wanted. Thanks to [Michael McCarthy](https://github.com/mccarthy-m-g) for the original text description, which has been modified below.
+Each can be subset based on what groups are wanted, either with `$<name>` for single palettes within a set or using the method below to select multiple.
 
--   For a single palette:
-
-```{r single}
-b10.pal$buckeye
-```
-
--   For a multiple palettes:
-
-```{r multi-palette}
+```{asciicast extract-vector-1}
 b10.pal[c("buckeye","spartan")]
 ```

@@ -3,8 +3,7 @@
 
 <!-- badges: start -->
 
-[![License:
-CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1)
+[![pkgdown](https://github.com/guziordo/guzioR/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/guziordo/guzioR/actions/workflows/pkgdown.yaml)
 [![test-coverage](https://github.com/guziordo/guzioR/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/guziordo/guzioR/actions/workflows/test-coverage.yaml)
 [![R-CMD-check](https://github.com/guziordo/guzioR/actions/workflows/R-CMD-check.yml/badge.svg)](https://github.com/guziordo/guzioR/actions/workflows/R-CMD-check.yml)
 <!-- badges: end -->
@@ -31,8 +30,7 @@ library(guzioR)
 
 ## Included Palettes
 
-These are compilations of palettes provided by friends or otherwise
-generated for fun.
+There are 3 palettes included, built by myself or others.
 
 <img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
 
@@ -48,43 +46,14 @@ each are the primary colors of that school.
 
 <img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
 
-### Selecting Palettes
+## Selecting Palettes
 
-Each can be subset based on what groups are wanted. Thanks to [Michael
-McCarthy](https://github.com/mccarthy-m-g) for the original text
-description, which has been modified below.
-
-- For a single palette:
-
-``` r
-b10.pal$buckeye
-#> <palettes_colour[4]>
-#> • #BA0C2F
-#> • #A7B1B7
-#> • #FFFFFF
-#> • #000000
-```
-
-- For a multiple palettes:
+Each can be subset based on what groups are wanted, either with
+`$<name>` for single palettes within a set or using the method below to
+select multiple.
 
 ``` r
 b10.pal[c("buckeye","spartan")]
-#> <palettes_palette[2]>
-#> $buckeye
-#> <palettes_colour[4]>
-#> • #BA0C2F
-#> • #A7B1B7
-#> • #FFFFFF
-#> • #000000
-#> 
-#> $spartan
-#> <palettes_colour[8]>
-#> • #18453B
-#> • #FFFFFF
-#> • #000000
-#> • #4D4D4D
-#> • #008208
-#> • #7BBD00
-#> • #0B9A6D
-#> • #008934
 ```
+
+<img src="man/figures/README-/extract-vector-1.svg" width="100%" />

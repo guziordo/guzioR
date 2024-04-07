@@ -7,12 +7,6 @@
     <loc>https://guziordo.github.io/guzioR/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://guziordo.github.io/guzioR/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>https://guziordo.github.io/guzioR/articles/introduction.html</loc>
-  </url>
-  <url>
     <loc>https://guziordo.github.io/guzioR/authors.html</loc>
   </url>
   <url>
@@ -37,13 +31,7 @@
     <loc>https://guziordo.github.io/guzioR/reference/guzioR.html</loc>
   </url>
   <url>
-    <loc>https://guziordo.github.io/guzioR/reference/guzior.pal.html</loc>
-  </url>
-  <url>
     <loc>https://guziordo.github.io/guzioR/reference/guzior.setdir.html</loc>
-  </url>
-  <url>
-    <loc>https://guziordo.github.io/guzioR/reference/guzior.setup.html</loc>
   </url>
   <url>
     <loc>https://guziordo.github.io/guzioR/reference/index.html</loc>
@@ -53,9 +41,6 @@
   </url>
   <url>
     <loc>https://guziordo.github.io/guzioR/reference/pielou.html</loc>
-  </url>
-  <url>
-    <loc>https://guziordo.github.io/guzioR/reference/qr.gen.html</loc>
   </url>
   <url>
     <loc>https://guziordo.github.io/guzioR/reference/quick.boxplot.html</loc>

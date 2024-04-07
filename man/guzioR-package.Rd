@@ -3,22 +3,21 @@
 \docType{package}
 \name{guzioR-package}
 \alias{guzioR-package}
-\title{guzioR: Doug Guzior's Common Commands}
+\title{guzioR: Guzior Analysis Suite}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-This is a generic set of functions, palettes, and general code I use regularly. It's a mash of different things with no cohesive theme but hopefully it helps with some analysis.
+A set of functions, palettes, and general code I use regularly. It's a mash of different things with no cohesive theme but hopefully it helps with analysis.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{"github.com/guziordo/guzioR"}
   \item \url{https://guziordo.github.io/guzioR/}
 }
 
 }
 \author{
-\strong{Maintainer}: Doug Guzior \email{guziordo@msu.edu} (\href{https://orcid.org/0000-0002-7019-3261}{ORCID})
+\strong{Maintainer}: Douglas Guzior \email{guziordo@msu.edu} (\href{https://orcid.org/0000-0002-7019-3261}{ORCID})
 
 }
 \keyword{internal}
