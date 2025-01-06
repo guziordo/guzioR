@@ -1,6 +1,6 @@
 Package: guzioR
 Title: Guzior Analysis Suite
-Version: 0.1.3
+Version: 0.2
 Authors@R: 
     person("Douglas", "Guzior", "", "guziordo@msu.edu", role = c("aut", "cre"),
             comment = c(ORCID = "0000-0002-7019-3261"))
@@ -9,15 +9,18 @@ URL: https://guziordo.github.io/guzioR/
 License: CC0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Imports:
     ggbeeswarm,
     ggpubr,
     palettes,
     qrcode,
-    vegan,
+    vegan
 Depends: 
+    mzR,
+    scales,
     dplyr,
+    stringr,
     ggplot2,
     R (>= 2.10)
 LazyData: true

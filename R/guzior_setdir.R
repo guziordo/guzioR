@@ -4,7 +4,7 @@
 #'
 #' @export
 
-guzior.setdir <- function() {
+guzior_setdir <- function() {
 
   for(x in c("plots", "inputs", "outputs")) {
 

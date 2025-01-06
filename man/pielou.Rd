@@ -10,7 +10,7 @@ pielou(x)
 \item{x}{Data containing only numeric values, with samples in rows and features in columns}
 }
 \value{
-A data vector containing calculated index values
+A vector containing calculated index values
 }
 \description{
 This function is used to calculate how evenly features are distributed per sample across a data frame or data table.

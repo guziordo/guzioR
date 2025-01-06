@@ -16,7 +16,7 @@
 #' @returns A ggplot object.
 #' @export
 
-quick.boxplot <- function(data, x.var, y.var, group.var = NULL, facet.var = NULL,
+quick_boxplot <- function(data, x.var, y.var, group.var = NULL, facet.var = NULL,
                           post.hoc = "dunn_test", ns.comp = TRUE, adj.method = "BH",
                           x.lab = deparse(substitute(x.var)),
                           y.lab = deparse(substitute(y.var)),

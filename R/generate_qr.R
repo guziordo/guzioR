@@ -8,7 +8,7 @@
 #' @param show Determines if the generated SVG is immediately opened. Defaults to FALSE.
 #' @export
 
-generate.qr <- function(site, filename, path = paste0(getwd(), "/plots/svg"), show = FALSE) {
+generate_qr <- function(site, filename, path = paste0(getwd(), "/plots/svg"), show = FALSE) {
   code <- qrcode::qr_code(site)
   plot(code)
   qrcode::generate_svg(code, filename = paste0(path, "/", filename, ".svg"), show = show)
