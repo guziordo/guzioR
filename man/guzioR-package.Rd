@@ -7,7 +7,7 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-A set of functions, palettes, and general code I use regularly. It's a mash of different things with no cohesive theme but hopefully it helps with analysis.
+A set of functions, palettes, and general code I use regularly.
 }
 \seealso{
 Useful links:

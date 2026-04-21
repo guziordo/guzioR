@@ -5,13 +5,9 @@
 #' @export
 
 guzior_setdir <- function() {
-
   for(x in c("plots", "inputs", "outputs")) {
-
     if (!dir.exists(paste0(getwd(), "/", x))) {
       dir.create(paste0(getwd(), "/", x))
     }
-
   }
-
 }

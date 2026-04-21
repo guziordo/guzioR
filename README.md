@@ -34,7 +34,7 @@ There are 3 palettes included, built by myself or others.
 
 <img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
 
-<i>Thank you to [Dr. Lydia-Ann
+<i>Thank you to [Dr. Lydia-Ann
 Ghuneim](https://www.linkedin.com/in/lydia-ann-ghuneim/) for providing
 the CPCOLS palette.</i>
 

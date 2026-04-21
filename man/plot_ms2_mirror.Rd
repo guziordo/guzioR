@@ -13,8 +13,8 @@ plot_ms2_mirror(
   ppm.tolerance = -1,
   da.tolerance = -1,
   add.ref = FALSE,
-  ms2.ref,
-  ms2.ref.id
+  ms2.ref = NULL,
+  ms2.ref.id = NULL
 )
 }
 \arguments{
@@ -34,9 +34,9 @@ plot_ms2_mirror(
 
 \item{add.ref}{Boolean, indicates if a third MS2 spectrum is provided for identifying matched peaks present in ms2.top or ms2.bot m/z values. Default is FALSE.}
 
-\item{ms2.ref}{Dataframe or matrix containing two columns, \code{mz} and \code{intensity}, for the MS2 spectrum to be used as a third reference. Default is -1.}
+\item{ms2.ref}{Dataframe or matrix containing two columns, \code{mz} and \code{intensity}, for the MS2 spectrum to be used as a third reference. Default is NULL.}
 
-\item{ms2.ref.id}{Numeric MS2 scan identifier for reference MS2 peaks. Default is -1.}
+\item{ms2.ref.id}{Numeric MS2 scan identifier for reference MS2 peaks. Default is NULL.}
 }
 \value{
 A ggplot object containing the MS2 mirror plot.
@@ -45,5 +45,5 @@ A ggplot object containing the MS2 mirror plot.
 This function is used to generate an MS2 mirror plot between two spectra, with the option to highlight reference peaks from a third spectrum.
 }
 \details{
-Note: MS2 spectral cleaning is done by msentropy::clean_spectrum(). Therefor, either provide ppm.tolerance or da.tolerance, not both.
+Note: MS2 spectral cleaning is done by msentropy::clean_spectrum(). Therefore, either provide ppm.tolerance or da.tolerance, not both.
 }

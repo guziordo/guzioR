@@ -1,28 +1,29 @@
 Package: guzioR
 Title: Guzior Analysis Suite
-Version: 0.2
+Version: 0.2.1
 Authors@R: 
     person("Douglas", "Guzior", "", "guziordo@msu.edu", role = c("aut", "cre"),
             comment = c(ORCID = "0000-0002-7019-3261"))
-Description: A set of functions, palettes, and general code I use regularly. It's a mash of different things with no cohesive theme but hopefully it helps with analysis.
+Description: A set of functions, palettes, and general code I use regularly.
 URL: https://guziordo.github.io/guzioR/
 License: CC0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.1.0)
 Imports:
+    dplyr,
     ggbeeswarm,
+    ggplot2,
     ggpubr,
+    msentropy,
+    mzR,
     palettes,
     qrcode,
-    vegan
-Depends: 
-    mzR,
     scales,
-    dplyr,
     stringr,
-    ggplot2,
-    R (>= 2.10)
+    vegan
 LazyData: true
 Suggests: 
     knitr,

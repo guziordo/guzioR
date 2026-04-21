@@ -1,11 +1,15 @@
 # Planned Work
--   
+-   None
+
+# guzioR 0.2.1
+
+-   Fixing R-CMD and pkgdown errors.
+-   Renamed functions to use "_" instead of periods in their names.
 
 # guzioR 0.2.0
 
 -   Added `generate_eic_ms2()` for simultaneous extracted ion chromatograph and single MS^2^ spectrum plotting. Retention time is appended to the filename to control for when multiple peaks are detected for a given mass, with multiple MS^2^ spectra collected.
 -   Added `save_pheatmap()` code from Matt Whitaker, modified to default to saving a png file if pdf is not specified in the filename.
--   Renamed functions to use "_" instead of periods in their names.
 
 # guzioR 0.1.3
 

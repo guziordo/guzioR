@@ -40,12 +40,13 @@ EICs. Default is 0.01 (1\%).}
 \item{min_filt}{Baseline intensity below which will not be considered when
 calculating local maxima within EICs. Default is 1e4.}
 
+\item{window}{Window size for rolling maximum used in peak detection. Default is 10.}
+
 \item{keep_log}{Whether or not to preserve the generated log file. Default is
 TRUE.}
 }
 \value{
-An object containing a matrix with file-mz pairs and the number of
-detected peaks.
+A matrix with file-mz pairs and the number of detected peaks.
 }
 \description{
 This function will search for a given list of m/z values in all mzML files
@@ -53,5 +54,5 @@ within a specified directory. For those found, it will generate an extracted
 ion chromatograph and individual MS2 spectra for each peak within that
 chromatograph. Tables of retention times and intensities will be generated
 for EIC plots, tables of fragment m/z and intensities will be generated for
-corresponding MS2 spectra. Lastly,
+corresponding MS2 spectra.
 }

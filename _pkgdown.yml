@@ -15,15 +15,18 @@ navbar:
 reference:
   - title: "Utilities"
     contents:
-      - generate.qr
+      - generate_qr
       - "%ni%"
-      - guzior.setdir
+      - guzior_setdir
   - title: "Analysis Functions"
     contents:
-      - alpha.div
-      - not_facet
+      - alpha_div
       - pielou
   - title: "Plotting Functions"
     contents:
-      - quick.boxplot
-      - save.ggplot
+      - not_facet
+      - quick_boxplot
+      - save_ggplot
+      - save_pheatmap
+      - generate_eic_ms2
+      - plot_ms2_mirror

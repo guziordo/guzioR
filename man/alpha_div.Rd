@@ -9,7 +9,7 @@ alpha_div(data, sample_col = 1)
 \arguments{
 \item{data}{Data table with sample IDs in the first column}
 
-\item{sample.col}{Column name containing sample identifiers}
+\item{sample_col}{Column name containing sample identifiers}
 }
 \value{
 A data frame containing associated alpha diversity metrics for

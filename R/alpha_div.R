@@ -5,7 +5,7 @@
 #' sample richness
 #'
 #' @param data Data table with sample IDs in the first column
-#' @param sample.col Column name containing sample identifiers
+#' @param sample_col Column name containing sample identifiers
 #' @returns A data frame containing associated alpha diversity metrics for
 #' samples in the provided table.
 #' @export
@@ -14,9 +14,9 @@ alpha_div <- function(data, sample_col = 1) {
   data %>%
     select(sample_col) %>%
     mutate(Shannon = vegan::diversity(data[, 2:length(data)],
-                                      indedata = "shannon"),
+                                      index = "shannon"),
            Simpson = vegan::diversity(data[, 2:length(data)],
-                                      indedata = "simpson"),
+                                      index = "simpson"),
            Pielou = pielou(data[, 2:length(data)]),
            Richness = vegan::specnumber(data[, 2:length(data)]))
 }
