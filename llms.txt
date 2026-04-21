@@ -1,0 +1,86 @@
+# guzioR
+
+A compilation of various commands and tools I’ve used that may be
+helpful. This package will not be routinely updated, but I’ll add things
+as they come up.
+
+## Installation
+
+Install the development version from
+[GitHub](https://guziordo.github.io/guzioR/github.com) using the
+following:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("guziordo/guzioR")
+```
+
+## Usage
+
+``` r
+library(guzioR)
+```
+
+## Included Palettes
+
+There are 3 palettes included, built by myself or others.
+
+![](reference/figures/README-unnamed-chunk-3-1.png)
+
+*Thank you to [Dr. Lydia-Ann
+Ghuneim](https://www.linkedin.com/in/lydia-ann-ghuneim/) for providing
+the CPCOLS palette.*
+
+### Big 10 Palettes
+
+I don’t own any of the rights to things from the Big 10. These are some
+palettes generated based on their brand identities. First two colors in
+each are the primary colors of that school.
+
+![](reference/figures/README-unnamed-chunk-4-1.png)
+
+## Selecting Palettes
+
+Each can be subset based on what groups are wanted, either with
+`$<name>` for single palettes within a set or using the method below to
+select multiple.
+
+``` r
+b10.pal[c("buckeye","spartan")]
+```
+
+![](reference/figures/README-/extract-vector-1.svg)
+
+# Package index
+
+## Utilities
+
+- [`generate_qr()`](https://guziordo.github.io/guzioR/reference/generate_qr.md)
+  : QR Code Generation
+- [`` `%ni%` ``](https://guziordo.github.io/guzioR/reference/grapes-ni-grapes.md)
+  : %ni% (Not-In) Operator
+- [`guzior_setdir()`](https://guziordo.github.io/guzioR/reference/guzior_setdir.md)
+  : Doug's Typical Directory Setup
+
+## Analysis Functions
+
+- [`alpha_div()`](https://guziordo.github.io/guzioR/reference/alpha_div.md)
+  : Calculate Alpha Diversity Metrics
+- [`pielou()`](https://guziordo.github.io/guzioR/reference/pielou.md) :
+  Calculate Pielou Evenness Index
+
+## Plotting Functions
+
+- [`not_facet()`](https://guziordo.github.io/guzioR/reference/not_facet.md)
+  : Plot Facets as Single Plot
+- [`quick_boxplot()`](https://guziordo.github.io/guzioR/reference/quick_boxplot.md)
+  : Create a Boxplot with Points
+- [`save_ggplot()`](https://guziordo.github.io/guzioR/reference/save_ggplot.md)
+  : Simultaneous GGPlot Save as PDF, PNG, SVG
+- [`save_pheatmap()`](https://guziordo.github.io/guzioR/reference/save_pheatmap.md)
+  : Save pheatmap function (png or pdf)
+- [`generate_eic_ms2()`](https://guziordo.github.io/guzioR/reference/generate_eic_ms2.md)
+  : EIC and MS2 Plotting from Mass List
+- [`plot_ms2_mirror()`](https://guziordo.github.io/guzioR/reference/plot_ms2_mirror.md)
+  : Generate MS2 Mirror Plot
+
